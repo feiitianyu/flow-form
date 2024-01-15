@@ -1,0 +1,14 @@
+export const ActionType = {
+  SET_CHANGE_FLAG: "workflow/SET_CHANGE_FLAG",
+  DELETE_NODE: "workflow/DELETE_NODE",
+  DELETE_CONDITION: "workflow/DELETE_CONDITION",
+  ADD_NODE: "workflow/ADD_NODE",
+  ADD_CONDITION: "workflow/ADD_CONDITION",
+  SET_REDOLIST: 'workflow/SET_REDOLIST',
+  SET_UNOLIST: 'workflow/SET_UNOLIST',
+  SET_START_NODE: 'workflow/SET_START_NODE',
+  CHANGE_NODE: 'workflow/CHANGE_NODE',
+  SELECT_NODE: 'workflow/SELECTED_NODE',
+  SET_VALIDATED: 'workflow/SET_VALIDATED',
+  SET_ERRORS: 'workflow/SET_ERRORS',
+}
